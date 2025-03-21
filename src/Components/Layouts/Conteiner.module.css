@@ -1,0 +1,111 @@
+.conteiner{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+} 
+
+.minHeight{
+    min-height: 100vh;
+}
+
+.star{
+    justify-content: flex-start;
+}
+
+.column{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+@media (max-width: 1200px){
+    .conteiner{
+        width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1000px){
+    .conteiner{
+        width: 900px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 900px) {
+    .conteiner{
+        width: 900px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 800px) {
+    .conteiner{
+        width: 800px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 700px){
+    .conteiner{
+        width: 700px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 700px) and (min-width: 600px){
+    .conteiner{
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) and (min-width: 500px){
+    .conteiner{
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 500px) and (min-width: 400px){
+    .conteiner{
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 400px) and (min-width: 320px){
+    .conteiner{
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+}
+

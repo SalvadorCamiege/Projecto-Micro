@@ -1,0 +1,502 @@
+.depoimentos {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.depoimento_box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.botoes_slide {
+    margin-top: 15px;
+}
+
+.botoes_slide button {
+    background: none;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: transform 0.2s ease-in-out;
+ 
+}
+
+@media (max-width: 1200px) and (min-width: 1000px){
+    .depoimentos {
+        text-align: center;
+        padding: 40px 20px;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    
+    .depoimento_box {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        color: black;
+        font-size: 18px;
+        max-width: 600px;
+        margin: 0 auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 0.5s ease-in-out forwards;
+    }
+
+    .titulo{
+        font-size: 60px;
+    }
+
+    .depoimento{
+        font-size: 18px;
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .botoes_slide {
+        margin-top: 15px;
+    }
+    
+    .botoes_slide button {
+        background: none;
+        border: none;
+        font-size: 40px;
+        cursor: pointer;
+        margin: 0 5px;
+        transition: transform 0.2s ease-in-out;
+     
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 900px){
+    .depoimentos {
+        text-align: center;
+        padding: 40px 20px;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    
+    .depoimento_box {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        color: black;
+        font-size: 18px;
+        max-width: 600px;
+        margin: 0 auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 0.5s ease-in-out forwards;
+    }
+
+    .titulo{
+        font-size: 50px;
+    }
+
+    .depoimento{
+        font-size: 16px;
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .botoes_slide {
+        margin-top: 15px;
+    }
+    
+    .botoes_slide button {
+        background: none;
+        border: none;
+        font-size: 40px;
+        cursor: pointer;
+        margin: 0 5px;
+        transition: transform 0.2s ease-in-out;
+     
+    }
+}
+
+@media (max-width: 900px) and (min-width: 800px){
+    .depoimentos {
+        text-align: center;
+        padding: 40px 20px;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    
+    .depoimento_box {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        color: black;
+        font-size: 18px;
+        max-width: 600px;
+        margin: 0 auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 0.5s ease-in-out forwards;
+    }
+
+    .titulo{
+        font-size: 35px;
+    }
+
+    .depoimento{
+        font-size: 15px;
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .botoes_slide {
+        margin-top: 15px;
+    }
+    
+    .botoes_slide button {
+        background: none;
+        border: none;
+        font-size: 40px;
+        cursor: pointer;
+        margin: 0 5px;
+        transition: transform 0.2s ease-in-out;
+     
+    }
+}
+
+@media (max-width: 800px) and (min-width: 700px){
+    .depoimentos {
+        text-align: center;
+        padding: 40px 20px;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    
+    .depoimento_box {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        color: black;
+        font-size: 18px;
+        max-width: 600px;
+        margin: 0 auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 0.5s ease-in-out forwards;
+    }
+
+    .titulo{
+        font-size: 35px;
+    }
+
+    .depoimento{
+        font-size: 15px;
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .botoes_slide {
+        margin-top: 15px;
+    }
+    
+    .botoes_slide button {
+        background: none;
+        border: none;
+        font-size: 40px;
+        cursor: pointer;
+        margin: 0 5px;
+        transition: transform 0.2s ease-in-out;
+     
+    }
+}
+
+@media (max-width: 700px) and (min-width: 600px){
+    .depoimentos {
+        text-align: center;
+        padding: 40px 20px;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    
+    .depoimento_box {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        color: black;
+        font-size: 18px;
+        max-width: 600px;
+        margin: 0 auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 0.5s ease-in-out forwards;
+    }
+
+    .titulo{
+        font-size: 35px;
+    }
+
+    .depoimento{
+        font-size: 15px;
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .botoes_slide {
+        margin-top: 15px;
+    }
+    
+    .botoes_slide button {
+        background: none;
+        border: none;
+        font-size: 40px;
+        cursor: pointer;
+        margin: 0 5px;
+        transition: transform 0.2s ease-in-out;
+     
+    }
+}
+
+@media (max-width: 600px) and (min-width: 500px){
+    .depoimentos {
+        text-align: center;
+        padding: 40px 20px;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    
+    .depoimento_box {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        color: black;
+        font-size: 18px;
+        max-width: 600px;
+        margin: 0 auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 0.5s ease-in-out forwards;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    .depoimento{
+        font-size: 13px;
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .botoes_slide {
+        margin-top: 15px;
+    }
+    
+    .botoes_slide button {
+        background: none;
+        border: none;
+        font-size: 40px;
+        cursor: pointer;
+        margin: 0 5px;
+        transition: transform 0.2s ease-in-out;
+     
+    }
+}
+
+@media (max-width: 500px) and (min-width: 400px){
+    .depoimentos {
+        text-align: center;
+        padding: 40px 20px;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    
+    .depoimento_box {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        color: black;
+        font-size: 18px;
+        max-width: 600px;
+        margin: 0 auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 0.5s ease-in-out forwards;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    .depoimento{
+        font-size: 13px;
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .botoes_slide {
+        margin-top: 15px;
+    }
+    
+    .botoes_slide button {
+        background: none;
+        border: none;
+        font-size: 40px;
+        cursor: pointer;
+        margin: 0 5px;
+        transition: transform 0.2s ease-in-out;
+     
+    }
+}
+
+@media (max-width: 400px) and (min-width: 320px){
+    .depoimentos {
+        text-align: center;
+        padding: 40px 20px;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    
+    .depoimento_box {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        color: black;
+        font-size: 18px;
+        max-width: 600px;
+        margin: 0 auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 0.5s ease-in-out forwards;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    .depoimento{
+        font-size: 13px;
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .botoes_slide {
+        margin-top: 15px;
+    }
+    
+    .botoes_slide button {
+        background: none;
+        border: none;
+        font-size: 40px;
+        cursor: pointer;
+        margin: 0 5px;
+        transition: transform 0.2s ease-in-out;
+     
+    }
+}

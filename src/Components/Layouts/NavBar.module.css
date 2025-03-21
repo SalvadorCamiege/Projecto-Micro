@@ -1,0 +1,138 @@
+/* Fundo do NavBar */
+.NavBar {
+  position: relative;
+  width: 100%;
+  height: 18vh;
+  background-image: url('../../Img/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* Criando um overlay */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container do menu */
+.container {
+  position: absolute;
+  top: 20px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.container img {
+  height: 50px;
+}
+
+/* Menu */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.menu li a:hover {
+  color: #f39c12;
+}
+
+/* Botão */
+.button {
+  display: inline-block;
+  background: white;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #f39c12;
+  color: white;
+}
+
+/* Estilos do Menu Hambúrguer */
+.menuButton {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+  .menu {
+    position: fixed;
+    top: 0;
+    left: -300px; /* Escondido inicialmente */
+    width: 200px;
+    height: 100%;
+    background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    transition: left 0.5s cubic-bezier(0.25, 1, 0.5, 1); /* Transição mais suave */
+  }
+  
+  .menuOpen {
+    left: 0; /* Aparece suavemente */
+  }
+  
+  .menu li {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  .menuOpen li {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  /* Botão do menu */
+  .menuButton {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 900px) {
+    .menuButton {
+      display: block;
+    }
+  }
+}
+
+

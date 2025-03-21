@@ -1,0 +1,697 @@
+.Compra{
+    margin-top: 40px;
+    background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea); 
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.Compra_h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Compra_p{
+    font-size: 18px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-bottom: 38px;
+}
+
+
+.Compra_2 {
+    display: flex;
+    flex-wrap: wrap;  /* Permite quebrar linha quando necessário */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px; /* Reduz o espaçamento entre os itens */
+    margin: auto;
+}
+
+.Compra_2 div {
+    width: calc(32.32% - 40px); /* Divide em 3 colunas, ajustando o espaço */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Compra_img {
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);  /* Gradiente vermelho-laranja */
+    padding: 5px; /* Espaço para a borda */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Suaviza o efeito */
+    cursor: pointer;
+}
+
+.Compra_img img {
+    border-radius: 50%;
+    width: 80px;  
+    height: 80px;
+    object-fit: cover; 
+    background-color: white; 
+    transition: transform 0.3s ease-in-out; /* Suaviza o efeito na imagem */
+}
+
+/* Efeito ao passar o mouse */
+.Compra_img:hover {
+    transform: scale(1.1); /* Aumenta suavemente */
+    box-shadow: 0px 0px 15px rgba(255, 115, 0, 0.7); /* Adiciona um brilho bonito */
+}
+
+/* Efeito ao clicar */
+.Compra_img:active {
+    transform: scale(0.9); /* Dá um efeito de clique sutil */
+    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.8); /* Muda a cor do brilho */
+}
+
+@media (max-width: 1200px) and (min-width: 1000px){
+    .Compra{
+        margin-top: 40px;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea); 
+        padding: 12px;
+        border-radius: 20px;
+    }
+    
+    .Compra_h1{
+        font-size: 60px;
+        text-align: center;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .Compra_p{
+        font-size: 18px;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        margin-bottom: 38px;
+    }
+    
+    
+    .Compra_2 {
+        display: flex;
+        flex-wrap: wrap;  /* Permite quebrar linha quando necessário */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 50px; /* Reduz o espaçamento entre os itens */
+        margin: auto;
+    }
+    
+    .Compra_2 div {
+        width: calc(32.32% - 40px); /* Divide em 3 colunas, ajustando o espaço */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Compra_img {
+        border-radius: 50%;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);  /* Gradiente vermelho-laranja */
+        padding: 5px; /* Espaço para a borda */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Suaviza o efeito */
+        cursor: pointer;
+        background-color: red;
+        width: 100%;
+    }
+    
+    .Compra_img img {
+        border-radius: 50%;
+        width: 80px;  
+        height: 80px;
+        object-fit: cover; 
+        background-color: white; 
+        transition: transform 0.3s ease-in-out; /* Suaviza o efeito na imagem */
+    }
+    
+    /* Efeito ao passar o mouse */
+    .Compra_img:hover {
+        transform: scale(1.1); /* Aumenta suavemente */
+        box-shadow: 0px 0px 15px rgba(255, 115, 0, 0.7); /* Adiciona um brilho bonito */
+    }
+    
+    /* Efeito ao clicar */
+    .Compra_img:active {
+        transform: scale(0.9); /* Dá um efeito de clique sutil */
+        box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.8); /* Muda a cor do brilho */
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 900px){
+    .Compra{
+        margin-top: 40px;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea); 
+        padding: 12px;
+        border-radius: 20px;
+    }
+    
+    .Compra_h1{
+        font-size: 50px;
+        text-align: center;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .Compra_p{
+        font-size: 16px;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        margin-bottom: 38px;
+    }
+    
+    
+    .Compra_2 {
+        display: flex;
+        flex-wrap: wrap;  /* Permite quebrar linha quando necessário */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 50px; /* Reduz o espaçamento entre os itens */
+        margin: auto;
+    }
+    
+    .Compra_2 div {
+        width: calc(32.32% - 40px); /* Divide em 3 colunas, ajustando o espaço */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Compra_img {
+        border-radius: 50%;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);  /* Gradiente vermelho-laranja */
+        padding: 5px; /* Espaço para a borda */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Suaviza o efeito */
+        cursor: pointer;
+        background-color: red;
+        width: 100%;
+    }
+    
+    .Compra_img img {
+        border-radius: 50%;
+        width: 80px;  
+        height: 80px;
+        object-fit: cover; 
+        background-color: white; 
+        transition: transform 0.3s ease-in-out; /* Suaviza o efeito na imagem */
+    }
+    
+    /* Efeito ao passar o mouse */
+    .Compra_img:hover {
+        transform: scale(1.1); /* Aumenta suavemente */
+        box-shadow: 0px 0px 15px rgba(255, 115, 0, 0.7); /* Adiciona um brilho bonito */
+    }
+    
+    /* Efeito ao clicar */
+    .Compra_img:active {
+        transform: scale(0.9); /* Dá um efeito de clique sutil */
+        box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.8); /* Muda a cor do brilho */
+    }
+}
+
+@media (max-width: 900px) and (min-width: 800px){
+    .Compra{
+        margin-top: 40px;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea); 
+        padding: 12px;
+        border-radius: 20px;
+    }
+    
+    .Compra_h1{
+        font-size: 35px;
+        text-align: center;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .Compra_p{
+        font-size: 16px;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        margin-bottom: 38px;
+    }
+    
+    
+    .Compra_2 {
+        display: flex;
+        flex-wrap: wrap;  /* Permite quebrar linha quando necessário */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 80px; /* Reduz o espaçamento entre os itens */
+        margin: auto;
+    }
+    
+    .Compra_2 div {
+        width: calc(32.32% - 40px); /* Divide em 3 colunas, ajustando o espaço */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Compra_img {
+        border-radius: 50%;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);  /* Gradiente vermelho-laranja */
+        padding: 5px; /* Espaço para a borda */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Suaviza o efeito */
+        cursor: pointer;
+        background-color: red;
+        width: 130%;
+    }
+    
+    .Compra_img img {
+        border-radius: 50%;
+        width: 80px;  
+        height: 80px;
+        object-fit: cover; 
+        background-color: white; 
+        transition: transform 0.3s ease-in-out; /* Suaviza o efeito na imagem */
+    }
+    
+    /* Efeito ao passar o mouse */
+    .Compra_img:hover {
+        transform: scale(1.1); /* Aumenta suavemente */
+        box-shadow: 0px 0px 15px rgba(255, 115, 0, 0.7); /* Adiciona um brilho bonito */
+    }
+    
+    /* Efeito ao clicar */
+    .Compra_img:active {
+        transform: scale(0.9); /* Dá um efeito de clique sutil */
+        box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.8); /* Muda a cor do brilho */
+    }
+}
+
+@media (max-width: 800px) and (min-width: 700px){
+    .Compra{
+        margin-top: 40px;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea); 
+        padding: 12px;
+        border-radius: 20px;
+    }
+    
+    .Compra_h1{
+        font-size: 35px;
+        text-align: center;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .Compra_p{
+        font-size: 15px;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        margin-bottom: 38px;
+    }
+    
+    
+    .Compra_2 {
+        display: flex;
+        flex-wrap: wrap;  /* Permite quebrar linha quando necessário */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 80px; /* Reduz o espaçamento entre os itens */
+        margin: auto;
+    }
+    
+    .Compra_2 div {
+        width: calc(32.32% - 40px); /* Divide em 3 colunas, ajustando o espaço */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Compra_img {
+        border-radius: 50%;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);  /* Gradiente vermelho-laranja */
+        padding: 5px; /* Espaço para a borda */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Suaviza o efeito */
+        cursor: pointer;
+        background-color: red;
+        width: 130%;
+    }
+    
+    .Compra_img img {
+        border-radius: 50%;
+        width: 80px;  
+        height: 80px;
+        object-fit: cover; 
+        background-color: white; 
+        transition: transform 0.3s ease-in-out; /* Suaviza o efeito na imagem */
+    }
+    
+    /* Efeito ao passar o mouse */
+    .Compra_img:hover {
+        transform: scale(1.1); /* Aumenta suavemente */
+        box-shadow: 0px 0px 15px rgba(255, 115, 0, 0.7); /* Adiciona um brilho bonito */
+    }
+    
+    /* Efeito ao clicar */
+    .Compra_img:active {
+        transform: scale(0.9); /* Dá um efeito de clique sutil */
+        box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.8); /* Muda a cor do brilho */
+    }
+}
+
+@media (max-width: 700px) and (min-width: 600px){
+    .Compra{
+        margin-top: 40px;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea); 
+        padding: 12px;
+        border-radius: 20px;
+    }
+    
+    .Compra_h1{
+        font-size: 35px;
+        text-align: center;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .Compra_p{
+        font-size: 15px;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        margin-bottom: 38px;
+    }
+    
+    
+    .Compra_2 {
+        display: flex;
+        flex-wrap: wrap;  /* Permite quebrar linha quando necessário */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 80px; /* Reduz o espaçamento entre os itens */
+        margin: auto;
+    }
+    
+    .Compra_2 div {
+        width: calc(32.32% - 40px); /* Divide em 3 colunas, ajustando o espaço */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Compra_img {
+        border-radius: 50%;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);  /* Gradiente vermelho-laranja */
+        padding: 5px; /* Espaço para a borda */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Suaviza o efeito */
+        cursor: pointer;
+        background-color: red;
+        width: 140%;
+    }
+    
+    .Compra_img img {
+        border-radius: 50%;
+        width: 80px;  
+        height: 80px;
+        object-fit: cover; 
+        background-color: white; 
+        transition: transform 0.3s ease-in-out; /* Suaviza o efeito na imagem */
+    }
+    
+    /* Efeito ao passar o mouse */
+    .Compra_img:hover {
+        transform: scale(1.1); /* Aumenta suavemente */
+        box-shadow: 0px 0px 15px rgba(255, 115, 0, 0.7); /* Adiciona um brilho bonito */
+    }
+    
+    /* Efeito ao clicar */
+    .Compra_img:active {
+        transform: scale(0.9); /* Dá um efeito de clique sutil */
+        box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.8); /* Muda a cor do brilho */
+    }
+}
+
+@media (max-width: 600px) and (min-width: 500px){
+    .Compra{
+        margin-top: 40px;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea); 
+        padding: 12px;
+        border-radius: 20px;
+    }
+    
+    .Compra_h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .Compra_p{
+        font-size: 13px;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        margin-bottom: 38px;
+    }
+    
+    
+    .Compra_2 {
+        display: flex;
+        flex-wrap: wrap;  /* Permite quebrar linha quando necessário */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 80px; /* Reduz o espaçamento entre os itens */
+        margin: auto;
+    }
+    
+    .Compra_2 div {
+        width: calc(32.32% - 40px); /* Divide em 3 colunas, ajustando o espaço */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Compra_img {
+        border-radius: 50%;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);  /* Gradiente vermelho-laranja */
+        padding: 5px; /* Espaço para a borda */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Suaviza o efeito */
+        cursor: pointer;
+        background-color: red;
+        width: 150%;
+    }
+    
+    .Compra_img img {
+        border-radius: 50%;
+        width: 80px;  
+        height: 80px;
+        object-fit: cover; 
+        background-color: white; 
+        transition: transform 0.3s ease-in-out; /* Suaviza o efeito na imagem */
+    }
+    
+    /* Efeito ao passar o mouse */
+    .Compra_img:hover {
+        transform: scale(1.1); /* Aumenta suavemente */
+        box-shadow: 0px 0px 15px rgba(255, 115, 0, 0.7); /* Adiciona um brilho bonito */
+    }
+    
+    /* Efeito ao clicar */
+    .Compra_img:active {
+        transform: scale(0.9); /* Dá um efeito de clique sutil */
+        box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.8); /* Muda a cor do brilho */
+    }
+}
+
+@media (max-width: 500px) and (min-width: 400px){
+    .Compra{
+        margin-top: 40px;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea); 
+        padding: 12px;
+        border-radius: 20px;
+    }
+    
+    .Compra_h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .Compra_p{
+        font-size: 13px;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        margin-bottom: 38px;
+    }
+    
+    
+    .Compra_2 {
+        display: flex;
+        flex-wrap: wrap;  /* Permite quebrar linha quando necessário */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 80px; /* Reduz o espaçamento entre os itens */
+        margin: auto;
+    }
+    
+    .Compra_2 div {
+        width: calc(32.32% - 40px); /* Divide em 3 colunas, ajustando o espaço */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Compra_img {
+        border-radius: 50%;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);  /* Gradiente vermelho-laranja */
+        padding: 5px; /* Espaço para a borda */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Suaviza o efeito */
+        cursor: pointer;
+        background-color: red;
+        width: 150%;
+    }
+    
+    .Compra_img img {
+        border-radius: 50%;
+        width: 80px;  
+        height: 80px;
+        object-fit: cover; 
+        background-color: white; 
+        transition: transform 0.3s ease-in-out; /* Suaviza o efeito na imagem */
+    }
+    
+    /* Efeito ao passar o mouse */
+    .Compra_img:hover {
+        transform: scale(1.1); /* Aumenta suavemente */
+        box-shadow: 0px 0px 15px rgba(255, 115, 0, 0.7); /* Adiciona um brilho bonito */
+    }
+    
+    /* Efeito ao clicar */
+    .Compra_img:active {
+        transform: scale(0.9); /* Dá um efeito de clique sutil */
+        box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.8); /* Muda a cor do brilho */
+    }
+}
+
+@media (max-width: 400px) and (min-width: 320px){
+    .Compra{
+        margin-top: 40px;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea); 
+        padding: 12px;
+        border-radius: 20px;
+    }
+    
+    .Compra_h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .Compra_p{
+        font-size: 13px;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        margin-bottom: 38px;
+    }
+    
+    
+    .Compra_2 {
+        display: flex;
+        flex-wrap: wrap;  /* Permite quebrar linha quando necessário */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 80px; /* Reduz o espaçamento entre os itens */
+        margin: auto;
+    }
+    
+    .Compra_2 div {
+        width: calc(32.32% - 40px); /* Divide em 3 colunas, ajustando o espaço */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Compra_img {
+        border-radius: 50%;
+        background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);  /* Gradiente vermelho-laranja */
+        padding: 5px; /* Espaço para a borda */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Suaviza o efeito */
+        cursor: pointer;
+        background-color: red;
+        width: 200%;
+    }
+    
+    .Compra_img img {
+        border-radius: 50%;
+        width: 80px;  
+        height: 80px;
+        object-fit: cover; 
+        background-color: white; 
+        transition: transform 0.3s ease-in-out; /* Suaviza o efeito na imagem */
+    }
+    
+    /* Efeito ao passar o mouse */
+    .Compra_img:hover {
+        transform: scale(1.1); /* Aumenta suavemente */
+        box-shadow: 0px 0px 15px rgba(255, 115, 0, 0.7); /* Adiciona um brilho bonito */
+    }
+    
+    /* Efeito ao clicar */
+    .Compra_img:active {
+        transform: scale(0.9); /* Dá um efeito de clique sutil */
+        box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.8); /* Muda a cor do brilho */
+    }
+}

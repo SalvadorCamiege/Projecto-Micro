@@ -1,0 +1,215 @@
+.button {
+    background-color: white; /* Cor verde */
+    color: black; /* Texto branco */
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+    margin-left: 3px;
+    
+}
+
+.button:hover {
+    background-color: rgb(237, 74, 107); /* Tom mais escuro ao passar o mouse */
+    transform: scale(1.05); /* Efeito de leve aumento */
+}
+
+.button:active {
+    background-color: #3e8e41; /* Cor ao clicar */
+    transform: scale(0.98); /* Efeito de clique */
+}
+
+@media (max-width: 1000px) and (min-width: 900px){
+    .button {
+        background-color: white; /* Cor verde */
+        color: black; /* Texto branco */
+        font-size: 16px;
+        font-weight: bold;
+        width: 150px;
+        height: 40px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.3s ease-in-out, transform 0.2s;
+        margin-left: 3px;
+        
+    }
+    
+    .button:hover {
+        background-color: rgb(237, 74, 107); /* Tom mais escuro ao passar o mouse */
+        transform: scale(1.05); /* Efeito de leve aumento */
+    }
+    
+    .button:active {
+        background-color: #3e8e41; /* Cor ao clicar */
+        transform: scale(0.98); /* Efeito de clique */
+    }
+}
+
+@media (max-width: 900px) and (min-width: 800px){
+    .button {
+        background-color: white; /* Cor verde */
+        color: black; /* Texto branco */
+        font-size: 16px;
+        font-weight: bold;
+        width: 150px;
+        height: 40px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.3s ease-in-out, transform 0.2s;
+        margin-left: 3px;
+        
+    }
+    
+    .button:hover {
+        background-color: rgb(237, 74, 107); /* Tom mais escuro ao passar o mouse */
+        transform: scale(1.05); /* Efeito de leve aumento */
+    }
+    
+    .button:active {
+        background-color: #3e8e41; /* Cor ao clicar */
+        transform: scale(0.98); /* Efeito de clique */
+    }
+}
+
+@media (max-width: 800px) and (min-width: 700px){
+    .button {
+        background-color: white; /* Cor verde */
+        color: black; /* Texto branco */
+        font-size: 16px;
+        font-weight: bold;
+        width: 150px;
+        height: 40px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.3s ease-in-out, transform 0.2s;
+        margin-left: 3px;
+        
+    }
+    
+    .button:hover {
+        background-color: rgb(237, 74, 107); /* Tom mais escuro ao passar o mouse */
+        transform: scale(1.05); /* Efeito de leve aumento */
+    }
+    
+    .button:active {
+        background-color: #3e8e41; /* Cor ao clicar */
+        transform: scale(0.98); /* Efeito de clique */
+    }
+}
+
+@media (max-width: 700px) and (min-width: 600px){
+    .button {
+        background-color: white; /* Cor verde */
+        color: black; /* Texto branco */
+        font-size: 15px;
+        font-weight: bold;
+        width: 150px;
+        height: 40px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.3s ease-in-out, transform 0.2s;
+        margin-left: 3px;
+        
+    }
+    
+    .button:hover {
+        background-color: rgb(237, 74, 107); /* Tom mais escuro ao passar o mouse */
+        transform: scale(1.05); /* Efeito de leve aumento */
+    }
+    
+    .button:active {
+        background-color: #3e8e41; /* Cor ao clicar */
+        transform: scale(0.98); /* Efeito de clique */
+    }
+}
+
+@media (max-width: 600px) and (min-width: 500px){
+    .button {
+        background-color: white; /* Cor verde */
+        color: black; /* Texto branco */
+        font-size: 13px;
+        font-weight: bold;
+        width: 150px;
+        height: 40px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.3s ease-in-out, transform 0.2s;
+        margin-left: 3px;
+        
+    }
+    
+    .button:hover {
+        background-color: rgb(237, 74, 107); /* Tom mais escuro ao passar o mouse */
+        transform: scale(1.05); /* Efeito de leve aumento */
+    }
+    
+    .button:active {
+        background-color: #3e8e41; /* Cor ao clicar */
+        transform: scale(0.98); /* Efeito de clique */
+    }
+}
+
+@media (max-width: 500px) and (min-width: 400px){
+    .button {
+        background-color: white; /* Cor verde */
+        color: black; /* Texto branco */
+        font-size: 12px;
+        font-weight: bold;
+        width: 150px;
+        height: 30px;
+        border: none;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        transition: background 0.3s ease-in-out, transform 0.2s;
+        margin-left: 3px;
+        
+    }
+    
+    .button:hover {
+        background-color: rgb(237, 74, 107); /* Tom mais escuro ao passar o mouse */
+        transform: scale(1.05); /* Efeito de leve aumento */
+    }
+    
+    .button:active {
+        background-color: #3e8e41; /* Cor ao clicar */
+        transform: scale(0.98); /* Efeito de clique */
+    }
+}
+
+@media (max-width: 400px) and (min-width: 320px){
+    .button {
+        background-color: white; /* Cor verde */
+        color: black; /* Texto branco */
+        font-size: 12px;
+        font-weight: bold;
+        width: 150px;
+        height: 40px;
+        border: none;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        transition: background 0.3s ease-in-out, transform 0.2s;
+        margin-left: 3px;
+        
+    }
+    
+    .button:hover {
+        background-color: rgb(237, 74, 107); /* Tom mais escuro ao passar o mouse */
+        transform: scale(1.05); /* Efeito de leve aumento */
+    }
+    
+    .button:active {
+        background-color: #3e8e41; /* Cor ao clicar */
+        transform: scale(0.98); /* Efeito de clique */
+    }
+}

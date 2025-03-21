@@ -1,0 +1,152 @@
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    margin-top: 20px;
+    background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea);  /* Gradiente vermelho-laranja */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: black;
+    font-size: 60px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
+
+input, select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 30px;
+}
+
+button {
+    background-color: crimson; /* Cor verde */
+    color: black; /* Texto branco */
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e04d2a;
+}
+
+.mensagem {
+    width: 80%;
+    margin: 15px auto;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Estilo para mensagem de sucesso */
+.sucesso {
+    background: linear-gradient(135deg, rgb(172, 50, 73), #a55eea); 
+    color: white;
+    border: 2px solid #dc3545;
+}
+
+/* Estilo para mensagem de erro */
+.erro {
+    background-color: #dc3545; /* Vermelho */
+    color: white;
+    border: 2px solid #a71d2a;
+}
+
+/* Animação para suavizar a entrada da mensagem */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 1000px){
+    h2 {
+        margin-bottom: 20px;
+        color: black;
+        font-size: 60px;
+    }
+}
+
+
+@media (max-width: 1000px) and (min-width: 900px){
+    h2 {
+        margin-bottom: 20px;
+        color: black;
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 800px){
+    h2 {
+        margin-bottom: 20px;
+        color: black;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 700px){
+    h2 {
+        margin-bottom: 20px;
+        color: black;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 700px) and (min-width: 600px){
+    h2 {
+        margin-bottom: 20px;
+        color: black;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 600px) and (min-width: 500px){
+    h2 {
+        margin-bottom: 20px;
+        color: black;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 500px) and (min-width: 400px){
+    h2 {
+        margin-bottom: 20px;
+        color: black;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 400px) and (min-width: 320px){
+    h2 {
+        margin-bottom: 20px;
+        color: black;
+        font-size: 30px;
+    }
+}

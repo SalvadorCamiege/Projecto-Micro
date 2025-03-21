@@ -1,0 +1,185 @@
+{
+  "compras": [
+    {
+      "id": "1741639727788",
+      "nome": "Salvador Ribeiro Camiege",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "endereco": "Angola Luanda golf 1",
+      "modelo": "Microfone Condensador",
+      "quantidade": 1,
+      "metodoPagamento": "cartao"
+    },
+    {
+      "id": "1741639823906",
+      "nome": "Salvador Ribeiro Camiege",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "endereco": "Angola Luanda golf 1",
+      "modelo": "Microfone Dinâmico",
+      "quantidade": 1,
+      "metodoPagamento": "cartao"
+    },
+    {
+      "id": "1741640010056",
+      "nome": "Salvador Ribeiro Camiege",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "endereco": "Angola Luanda golf 1",
+      "modelo": "Microfone de Lapela",
+      "quantidade": 1,
+      "metodoPagamento": "cartao"
+    },
+    {
+      "id": "1741640070766",
+      "nome": "Salvador Ribeiro Camiege",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "endereco": "Angola Luanda golf 1",
+      "modelo": "Microfone de Lapela",
+      "quantidade": 1,
+      "metodoPagamento": "boleto"
+    },
+    {
+      "id": "1741642166234",
+      "nome": "Salvador Ribeiro Camiege",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "endereco": "Angola Luanda golf 1",
+      "modelo": "Microfone Dinâmico",
+      "quantidade": 1,
+      "metodoPagamento": "cartao"
+    },
+    {
+      "id": "1741642313966",
+      "nome": "Salvador Ribeiro Camiege",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "endereco": "Angola Luanda golf 1",
+      "modelo": "Microfone Dinâmico",
+      "quantidade": 1,
+      "metodoPagamento": "cartao"
+    },
+    {
+      "id": "1741642355262",
+      "nome": "Salvador Ribeiro Camiege",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "endereco": "Angola Luanda golf 1",
+      "modelo": "Microfone Condensador",
+      "quantidade": 1,
+      "metodoPagamento": "cartao"
+    },
+    {
+      "id": "1741642381381",
+      "nome": "Salvador Ribeiro Camiege",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "endereco": "Angola Luanda golf 1",
+      "modelo": "Microfone de Cabeça",
+      "quantidade": 1,
+      "metodoPagamento": "cartao"
+    },
+    {
+      "id": "1741642673112",
+      "nome": "Amelia camiege",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "endereco": "Angola Luanda golf 1",
+      "modelo": "Microfone de Lapela",
+      "quantidade": "5",
+      "metodoPagamento": "boleto"
+    },
+    {
+      "id": "1741797279703",
+      "nome": "Salvador Ribeiro Camiege",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "endereco": "Angola Luanda golf 1",
+      "modelo": "Microfone Dinâmico",
+      "quantidade": 1,
+      "metodoPagamento": "cartao"
+    },
+    {
+      "id": "1741797553036",
+      "nome": "Salvador Ribeiro Camiege",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "endereco": "Angola Luanda golf 1",
+      "modelo": "Microfone Dinâmico",
+      "quantidade": 1,
+      "metodoPagamento": "cartao"
+    },
+    {
+      "id": "1741797732282",
+      "nome": "Amelia Camiege",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "endereco": "Angola Luanda golf 1",
+      "modelo": "Microfone de Cabeça",
+      "quantidade": "5",
+      "metodoPagamento": "boleto"
+    },
+    {
+      "id": 1742485302879,
+      "nome": "Salvador Ribeiro Camiege",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "endereco": "Angola Luanda golf 1",
+      "modelo": "Microfone Dinâmico",
+      "quantidade": 1,
+      "metodoPagamento": "boleto"
+    }
+  ],
+  "contactos": [
+    {
+      "id": "def3",
+      "nome": "Salvador Ribeiro Camiege",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "msg": "s"
+    },
+    {
+      "id": "a16d",
+      "nome": "Salvador Ribeiro Camiege",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "msg": "cvb"
+    },
+    {
+      "id": "08bc",
+      "nome": "Salvador Ribeiro Camiege",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "msg": "Salvador Camiege"
+    },
+    {
+      "id": "09a4",
+      "nome": "Maria Manuel",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "msg": "Quero a de melhor qualidade"
+    },
+    {
+      "id": "bc53",
+      "nome": "Salvador Ribeiro Camiege",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "msg": "e"
+    },
+    {
+      "id": "e6d5",
+      "nome": "Salvador Ribeiro Camiege",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "msg": "ola"
+    },
+    {
+      "id": "c926",
+      "nome": "Salvador Ribeiro Camiege",
+      "email": "camiegesalvador@gmail.com",
+      "telefone": "937039488",
+      "msg": "ola"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+.footer {
+    background-image: url('../../Img/footer.jpg');
+    background-size: cover;
+    background-position: center; /* Centraliza a imagem horizontal e verticalmente */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    color: white; /* Cor do texto para melhor contraste com a imagem */
+    padding: 50px; /* Adiciona um espaçamento interno ao rodapé */
+    margin-top: 50px; 
+    height: 100px;  
+}
+
+.social_list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.social_list li {
+    margin: 0 10px;
+}
+
+.social_list li:hover {
+    color: black;
+    transition: 0.3s; /* Transição mais suave e rápida */
+}
+
+.social_list li svg {
+    cursor: pointer;
+    color: white;
+    margin-top: 30px;
+}
+
+.paragrafo {
+    color: white;
+    text-align: center;
+}
